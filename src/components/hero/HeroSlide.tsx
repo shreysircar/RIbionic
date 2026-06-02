@@ -25,32 +25,30 @@ export default function HeroSlide({
         alt={slide.title}
         fill
         priority
-        className="object-cover"
+        className="object-cover brightness-90 saturate-90"
       />
 
+      {/* Content */}
+      <div className="relative z-20 flex h-full items-end">
+        <div className="mx-auto w-full max-w-7xl px-8 pb-12 lg:pb-16">
+          <div className="max-w-2xl ml-8 lg:ml-20">
+            <h1 className="mb-4 text-3xl font-bold leading-tight text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)] md:text-4xl lg:text-5xl">
+              {slide.title}
+            </h1>
 
+            <p className="mb-10 text-base text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)] md:text-lg">
+              {slide.subtitle}
+            </p>
 
-{/* Content */}
-<div className="relative z-20 flex h-full items-end">
-<div className="mx-auto w-full max-w-7xl px-8 pb-12 lg:pb-16">
-  <div className="max-w-2xl ml-8 lg:ml-20">
-      <h1 className="mb-4 text-4xl font-bold leading-tight text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)] md:text-5xl lg:text-6xl">
-        {slide.title}
-      </h1>
-
-      <p className="mb-10 text-lg text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)] md:text-xl">
-        {slide.subtitle}
-      </p>
-
-      <Link
-        href={slide.buttonLink}
-        className="inline-flex items-center rounded-xl border-2 border-white px-6 py-3 text-sm font-semibold uppercase tracking-wide text-white transition-all duration-300 hover:bg-white hover:text-black"
-      >
-        {slide.buttonText}
-      </Link>
-    </div>
-  </div>
-</div>
+            <Link
+              href={slide.buttonLink}
+              className="inline-flex items-center rounded-xl border-2 border-white px-6 py-3 text-sm font-semibold uppercase tracking-wide text-white transition-all duration-300 hover:bg-white hover:text-black"
+            >
+              {slide.buttonText}
+            </Link>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

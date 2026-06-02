@@ -7,11 +7,14 @@ import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import CTASection from "@/components/sections/CTASection";
 
 import { heroSlides } from "@/lib/data/hero";
+import { aboutData } from "@/lib/data/about";
 
 export default function HomePage() {
   return (
-    <main className="bg-slate-900">
+    <main className="bg-white">
       <HeroBanner slides={heroSlides} />
+
+      <AboutPreview data={aboutData} />
 
       <ServicesPreview />
 
@@ -19,7 +22,7 @@ export default function HomePage() {
 
       <WhyChooseUs />
 
-      <AboutPreview />
+      
 
       <ArticlesPreview />
 
