@@ -5,7 +5,7 @@ import ArticlesPreview from "@/components/sections/ArticlesPreview";
 import AboutPreview from "@/components/sections/AboutPreview";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import CTASection from "@/components/sections/CTASection";
-
+import StatsSection from "@/components/sections/StatsSection";
 import { heroSlides } from "@/lib/data/hero";
 import { aboutData } from "@/lib/data/about";
 
@@ -19,6 +19,8 @@ export default function HomePage() {
       <ServicesPreview />
 
       <ProductsPreview />
+
+<StatsSection />
 
       <WhyChooseUs />
 
