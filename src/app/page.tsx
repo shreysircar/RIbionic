@@ -8,14 +8,8 @@ import CTASection from "@/components/sections/CTASection";
 
 export default function HomePage() {
   return (
-    <>
-      <HeroBanner />
-      <ServicesPreview />
-      <ProductsPreview />
-      <ArticlesPreview />
-      <AboutPreview />
-      <WhyChooseUs />
-      <CTASection />
-    </>
+    <main className="min-h-screen bg-slate-900">
+      <div className="h-screen" />
+    </main>
   );
 }
