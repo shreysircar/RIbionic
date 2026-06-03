@@ -1,6 +1,5 @@
 export interface Service {
   id: string;
   title: string;
-  description: string;
-  imageUrl: string;
+  image: string;
 }
