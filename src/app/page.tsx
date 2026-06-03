@@ -18,7 +18,7 @@ export default function HomePage() {
 
       <ServicesPreview />
 
-      <ProductsPreview />
+      <ArticlesPreview />
 
 <StatsSection />
 
