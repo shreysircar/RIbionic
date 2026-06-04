@@ -1,13 +1,11 @@
 import HeroBanner from "@/components/hero/HeroBanner";
 import ServicesPreview from "@/components/sections/ServicesPreview";
-import ProductsPreview from "@/components/sections/ProductsPreview";
 import ArticlesPreview from "@/components/sections/ArticlesPreview";
 import AboutPreview from "@/components/sections/AboutPreview";
-import WhyChooseUs from "@/components/sections/WhyChooseUs";
-import CTASection from "@/components/sections/CTASection";
 import StatsSection from "@/components/sections/StatsSection";
 import { heroSlides } from "@/lib/data/hero";
 import { aboutData } from "@/lib/data/about";
+import TrendingPreview from "@/components/sections/TrendingPreview";
 
 export default function HomePage() {
   return (
@@ -22,13 +20,9 @@ export default function HomePage() {
 
 <StatsSection />
 
-      <WhyChooseUs />
 
-      
-
-      <ArticlesPreview />
-
-      <CTASection />
+  
+      <TrendingPreview />
     </main>
   );
 }
