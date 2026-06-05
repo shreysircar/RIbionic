@@ -17,7 +17,7 @@ export default function ArticlesPreview() {
           {articles.map((article) => (
             <Link
               key={article.id}
-              href={`/articles/${article.slug}`}
+              href={`/services#${article.serviceSlug}`}
               className="group relative h-[260px] overflow-hidden"
             >
               {/* Image */}

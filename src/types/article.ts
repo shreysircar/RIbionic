@@ -4,4 +4,5 @@ export interface Article {
   description: string;
   imageUrl: string;
   slug: string;
+  serviceSlug: string;
 }

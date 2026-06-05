@@ -8,6 +8,7 @@ export const articles: Article[] = [
       "Dimensions of data, insights, visualization, data stores and analytics.",
     imageUrl: "/images/articles/article1.png",
     slug: "data-dynamics",
+    serviceSlug: "data-dynamics",
   },
   {
     id: "2",
@@ -16,6 +17,7 @@ export const articles: Article[] = [
       "Modern dashboards with active metrics to track and monitor any deliverable for quality, schedule and content.",
     imageUrl: "/images/articles/article2.png",
     slug: "digital-delivery",
+    serviceSlug: "digital-delivery",
   },
   {
     id: "3",
@@ -24,6 +26,7 @@ export const articles: Article[] = [
       "Fast cycle times assuring business agility with quality.",
     imageUrl: "/images/articles/article3.png",
     slug: "application-lifecycle-services",
+    serviceSlug: "application-lifecycle-services",
   },
   {
     id: "4",
@@ -32,6 +35,7 @@ export const articles: Article[] = [
       "Gain valuable insights on your business and operations, offering exciting strategic and actionable perspectives.",
     imageUrl: "/images/articles/article4.png",
     slug: "artificial-intelligence-value-chain",
+    serviceSlug: "artificial-intelligence-value-chain",
   },
   {
     id: "5",
@@ -40,6 +44,7 @@ export const articles: Article[] = [
       "Quality that ensures business continuity, reusability and resilience.",
     imageUrl: "/images/articles/article5.png",
     slug: "business-assurance-testing",
+    serviceSlug: "business-assurance-testing",
   },
   {
     id: "6",
@@ -48,6 +53,7 @@ export const articles: Article[] = [
       "Can we help you with something? Stay ahead of competition with strategic and operational edge.",
     imageUrl: "/images/articles/article6.png",
     slug: "consulting-that-delivers",
+     serviceSlug: "consulting-that-delivers",
   },
   {
     id: "7",
@@ -56,6 +62,7 @@ export const articles: Article[] = [
       "From efficient, scalable, and flexible finance or human resources, handle your resources optimally - add speed by integrating the best point solutions.",
     imageUrl: "/images/articles/article7.png",
     slug: "accelerate-erp-apps-roll-outs",
+     serviceSlug: "accelerate-erp-apps-roll-outs",
   },
   {
     id: "8",
@@ -64,6 +71,8 @@ export const articles: Article[] = [
       "Get the cutting edge by building the right infrastructure and keeping ahead of the curve.",
     imageUrl: "/images/articles/article8.png",
     slug: "virtuous-infrastructure",
+    serviceSlug: "virtuous-infrastructure",
+
   },
   {
     id: "9",
@@ -72,5 +81,6 @@ export const articles: Article[] = [
       "Empower your business and sales cycles with exotic end user experiences and employee satisfaction.",
     imageUrl: "/images/articles/article9.png",
     slug: "experience-first-services",
+    serviceSlug: "experience-first-services",
   },
 ];

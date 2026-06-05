@@ -10,10 +10,10 @@ export default function OfferingSection({
   offering,
 }: Props) {
   return (
-    <section
-      id={offering.slug}
-      className="py-24"
-    >
+<section
+  id={offering.slug}
+  className="scroll-mt-32 py-24"
+>
       <div className="mx-auto max-w-7xl px-6">
 
         {/* Title */}
