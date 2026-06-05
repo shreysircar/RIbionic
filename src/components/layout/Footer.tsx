@@ -1,11 +1,50 @@
 "use client";
-
+import { useState } from "react";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
+  const [email, setEmail] = useState("");
+const [loading, setLoading] = useState(false);
+const [message, setMessage] = useState("");
+const handleSubscribe = async () => {
+  if (!email.trim()) {
+    setMessage("Please enter an email address.");
+    return;
+  }
+
+  try {
+    setLoading(true);
+    setMessage("");
+
+    const response = await fetch("/api/newsletter", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ email }),
+    });
+
+    const data = await response.json();
+
+    if (!response.ok) {
+      throw new Error(data.error || "Subscription failed");
+    }
+
+    setEmail("");
+    setMessage("Successfully subscribed!");
+  } catch (error) {
+    setMessage(
+      error instanceof Error
+        ? error.message
+        : "Something went wrong."
+    );
+  } finally {
+    setLoading(false);
+  }
+};
   return (
     <footer className="border-t border-[#4a9eb3]/10 bg-slate-950 text-white">
       <div className="mx-auto max-w-7xl px-6 py-12">
@@ -117,34 +156,44 @@ export default function Footer() {
             </p>
 
             <div className="mt-5 flex overflow-hidden rounded-xl border border-slate-800">
-              <input
-                type="email"
-                placeholder="Your corporate email"
-                className="
-                  flex-1
-                  bg-transparent
-                  px-4
-                  py-3
-                  text-white
-                  outline-none
-                  placeholder:text-slate-500
-                "
-              />
+             <input
+  type="email"
+  value={email}
+  onChange={(e) => setEmail(e.target.value)}
+  placeholder="Your corporate email"
+  className="
+    flex-1
+    bg-transparent
+    px-4
+    py-3
+    text-white
+    outline-none
+    placeholder:text-slate-500
+  "
+/>
 
-              <button
-                className="
-                  flex items-center gap-2
-                  bg-[#025a6a]
-                  px-5
-                  font-medium
-                  transition
-                  hover:bg-[#4a9eb3]
-                "
-              >
-                Subscribe
+            <button
+  onClick={handleSubscribe}
+  disabled={loading}
+  className="
+    flex items-center gap-2
+    bg-[#025a6a]
+    px-5
+    font-medium
+    transition
+    hover:bg-[#4a9eb3]
+    disabled:opacity-50
+  "
+>
+              {loading ? "Sending..." : "Subscribe"}
                 <ArrowRight size={15} />
               </button>
             </div>
+            {message && (
+  <p className="mt-3 text-sm text-slate-400">
+    {message}
+  </p>
+)}
           </div>
 
         </div>

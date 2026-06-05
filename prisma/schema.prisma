@@ -23,3 +23,11 @@ model ContactSubmission {
 
   createdAt    DateTime @default(now())
 }
+
+model NewsletterSubscriber {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  createdAt DateTime @default(now())
+
+  @@map("newsletter_subscribers")
+}
