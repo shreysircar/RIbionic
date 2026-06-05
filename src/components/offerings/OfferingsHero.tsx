@@ -18,7 +18,7 @@ export default function OfferingsHero() {
 
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-5xl px-6 text-center">
-        <p className="mb-4 text-sm font-extrabold uppercase tracking-[0.3em] text-[#4a9eb3]">
+        <p className="mb-4 text-sm font-extrabold uppercase tracking-[0.3em] text-white">
           Our Services
         </p>
 

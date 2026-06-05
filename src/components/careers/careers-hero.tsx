@@ -16,7 +16,7 @@ export default function CareersHero() {
       <div className="relative z-10 h-full">
         <div className="mx-auto flex h-full max-w-7xl items-center px-6 lg:px-8">
           <div className="max-w-2xl text-white">
-            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-white/60">
+            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-white">
               Career Paths at Ribionic
             </p>
 

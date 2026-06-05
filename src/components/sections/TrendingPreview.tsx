@@ -6,21 +6,21 @@ const trendingItems = [
     gif: "/trending/ai-wave.mp4",
     description:
       "Super cycles have influenced economics, geopolitics, industrialization and our way of life. Where is the AI wave taking us?",
-    link: "/articles/ai-wave",
+    link: "/insights/super-cycles-and-super-states",
   },
   {
     id: 2,
     gif: "/trending/cloud.mp4",
     description:
       "With the ever increasing cloud complexity, and the multi cloud conundrum bound to stay, is there a way out?",
-    link: "/articles/cloud-complexity",
+    link: "/insights/taking-complexity-out-of-the-cloud/",
   },
   {
     id: 3,
     gif: "/trending/workforce.mp4",
     description:
       "The white-collar knowledge employees are being challenged like never before — what does the future hold for them?",
-    link: "/articles/future-workforce",
+    link: "/insights/knowledge-workers-in-the-age-of-generative-ai",
   },
 ];
 

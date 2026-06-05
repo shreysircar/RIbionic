@@ -8,7 +8,7 @@ export const heroSlides: HeroSlide[] = [
       "Experts lead you on a comprehensive journey of discovery & self-actualization that defines your path to digital nirvana",
     imageUrl: "/images/hero/hero1.png",
     buttonText: "Discover More",
-    buttonLink: "/services",
+    buttonLink: "/insights/transform-your-digital-landscape",
   },
 
   {
@@ -18,7 +18,7 @@ export const heroSlides: HeroSlide[] = [
       "The need to shift to action models is accentuated by the business use cases promising huge gains leading to specialized domain action models",
     imageUrl: "/images/hero/hero2.png",
     buttonText: "Our Insights",
-    buttonLink: "/about",
+    buttonLink: "/insights/transition-to-the-next-level-in-genai",
   },
 
   {
@@ -28,6 +28,6 @@ export const heroSlides: HeroSlide[] = [
       "You really need to organize your data well to realize the potential value through AI models",
     imageUrl: "/images/hero/hero3.png",
     buttonText: "Read More",
-    buttonLink: "/contact",
+    buttonLink: "/insights/empower-ai-with-the-right-information-architecture",
   },
 ];
