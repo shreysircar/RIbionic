@@ -88,18 +88,18 @@ export async function POST(request: Request) {
       to: email,
 
       subject:
-        "Thank you for contacting Ribionic",
+        "Thank you for contacting Ribionic Solutions",
 
       html: `
         <p>Dear ${firstName},</p>
 
         <p>
-          Thank you for contacting
+          Thanks for contacting
           Ribionic Solutions.
         </p>
 
         <p>
-          We acknowledge your mail and will get back to you soon.
+          This is to acknowledge your message. Someone will appropriately get back to you.
         </p>
 
         <p>
