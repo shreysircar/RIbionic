@@ -18,6 +18,18 @@ export default function ServicesPage() {
         />
       ))}
 
+<div className="pb-12 pt-4 text-center">
+  <p className="text-sm tracking-wide text-slate-500">
+    For queries, please reach out to us at{" "}
+    <a
+      href="mailto:info@ribionic.com"
+      className="font-medium text-[#025a6a] transition hover:text-[#4a9eb3]"
+    >
+      info@ribionic.com
+    </a>
+  </p>
+</div>
+
     </main>
   );
 }

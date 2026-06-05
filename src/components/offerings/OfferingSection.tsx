@@ -66,7 +66,16 @@ export default function OfferingSection({
                               key={pointIndex}
                               className="flex items-start gap-3"
                             >
-                              <div className="mt-2 h-2 w-2 rounded-full bg-[#4a9eb3]" />
+                              <div
+  className="
+    mt-2
+    h-2.5
+    w-2.5
+    flex-shrink-0
+    rounded-full
+    bg-[#4a9eb3]
+  "
+/>
 
                               <span className="text-slate-700">
                                 {point}
@@ -144,7 +153,16 @@ export default function OfferingSection({
                                   key={pointIndex}
                                   className="flex items-start gap-3"
                                 >
-                                  <div className="mt-2 h-2 w-2 rounded-full bg-[#4a9eb3]" />
+                                  <div
+  className="
+    mt-2
+    h-2.5
+    w-2.5
+    flex-shrink-0
+    rounded-full
+    bg-[#4a9eb3]
+  "
+/>
 
                                   <span className="text-slate-700">
                                     {point}
@@ -181,7 +199,16 @@ export default function OfferingSection({
                   key={feature}
                   className="flex items-center gap-3"
                 >
-                  <div className="h-2 w-2 rounded-full bg-[#4a9eb3]" />
+                  <div
+  className="
+    mt-2
+    h-2.5
+    w-2.5
+    flex-shrink-0
+    rounded-full
+    bg-[#4a9eb3]
+  "
+/>
 
                   <span>{feature}</span>
                 </li>

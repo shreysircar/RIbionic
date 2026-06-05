@@ -283,7 +283,7 @@ export const offerings: Offering[] = [
           "Drastically reduce maintenance costs for your applications landscape",
           "Ensure business agility with aggressive build to deploy timelines",
           "Exercise time journeys for alternate and negative flows",
-          "Enable full coverage through availability of aging data on demand through-> exercise of data flow sequence execution within the application or a dependent application which is usually a small set of actions within the LAMs and specifically labelled as such"
+          "Enable full coverage through availability of aging data on demand through exercise of data flow sequence execution within the application or a dependent application which is usually a small set of actions within the LAMs and specifically labelled as such"
         ],
         images: [{ imageUrl: "/offerings/image19.png", layout: "image-left", caption: "" }],
       },
@@ -546,7 +546,7 @@ export const offerings: Offering[] = [
           "Service Integration and Command Center Services",
           "DevSecOps Services",
           "Mainframe, database and middleware Services",
-          "Compliance with standards like ITIL-> 1) Problem management, 2) Continual improvement",
+          "Compliance with standards like ITIL: 1) Problem management, 2) Continual improvement",
           "Cloud migration, support and provisioning services: 1) Bare metal or VMs on demand, 2) Cost optimization, 3)Troubleshooting",
           "App and infra monitoring, alerts, resiliency and tools"
         ],
