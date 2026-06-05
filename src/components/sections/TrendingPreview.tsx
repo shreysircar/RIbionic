@@ -3,14 +3,14 @@ import Link from "next/link";
 const trendingItems = [
   {
     id: 1,
-    gif: "/trending/ai-wave.mp4",
+    gif: "/trending/cloud.mp4",
     description:
       "Super cycles have influenced economics, geopolitics, industrialization and our way of life. Where is the AI wave taking us?",
     link: "/insights/super-cycles-and-super-states",
   },
   {
     id: 2,
-    gif: "/trending/cloud.mp4",
+    gif: "/trending/ai-wave.mp4",
     description:
       "With the ever increasing cloud complexity, and the multi cloud conundrum bound to stay, is there a way out?",
     link: "/insights/taking-complexity-out-of-the-cloud/",
