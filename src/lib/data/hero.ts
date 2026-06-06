@@ -30,4 +30,14 @@ export const heroSlides: HeroSlide[] = [
     buttonText: "Read More",
     buttonLink: "/insights/empower-ai-with-the-right-information-architecture",
   },
+
+{
+  id: "4",
+  title: "LekhaJokha - Organize Life. Simplify Every Day.",
+  subtitle:
+    "Track expenses, organize documents, manage reminders, and plan your day through one secure productivity platform.",
+  imageUrl: "/images/hero/lekhajokha.jpeg",
+  buttonText: "Visit Product",
+  buttonLink: "https://ribionic.com/lekhajokha/",
+},
 ];

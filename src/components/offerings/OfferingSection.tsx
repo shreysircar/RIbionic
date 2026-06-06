@@ -110,7 +110,13 @@ export default function OfferingSection({
                   >
                     {/* Image */}
                     {image.imageUrl && (
-                      <div className="mx-auto w-full max-w-sm">
+                    <div
+  className={`w-full max-w-sm ${
+    image.layout === "image-right"
+      ? "ml-auto"
+      : "mr-auto"
+  }`}
+>
                         <div
                           className="
                             relative

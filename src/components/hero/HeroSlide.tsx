@@ -25,7 +25,7 @@ export default function HeroSlide({
         alt={slide.title}
         fill
         priority
-        className="object-cover brightness-90 saturate-90"
+        className="hero-zoom object-cover brightness-90 saturate-90"
       />
 
       {/* Content */}
