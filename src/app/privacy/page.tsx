@@ -2,7 +2,7 @@ export default function PrivacyPage() {
   return (
     <main className="bg-white min-h-screen">
       {/* Navbar Gradient Offset */}
-<div className="h-48 bg-gradient-to-b from-[#4a9eb3] via-[#4a9eb3]/10 to-white" />
+<div className="h-60 bg-gradient-to-b from-[#4a9eb3] via-[#4a9eb3]/10 to-white" />
 
       <section className="mx-auto max-w-4xl px-6 pb-24">
         <h1 className="text-5xl font-bold text-slate-900">
