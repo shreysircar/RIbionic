@@ -35,11 +35,11 @@ body {
     transform: scale(1);
   }
   to {
-    transform: scale(1.22);
+    transform: scale(1.2);
   }
 }
 
 .hero-zoom {
-  animation: slowZoom 10s ease-in-out infinite alternate;
+  animation: slowZoom 12s ease-out forwards;
   will-change: transform;
 }
