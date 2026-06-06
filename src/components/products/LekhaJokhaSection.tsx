@@ -31,7 +31,7 @@ export default function LekhaJokhaSection() {
             </h2>
 
             <p className="mt-3 text-xl font-medium text-[#4a9eb3]">
-              It can make your day, every day!!!
+              It can make your day, every day!!
             </p>
 
             <div className="mt-8 space-y-5 text-slate-300 leading-relaxed">
