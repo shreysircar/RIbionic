@@ -33,14 +33,15 @@ export default function ContactPage() {
 
             <div>
               <h2 className="mb-6 text-3xl font-bold text-gray-900">
-                Let's Start a Conversation
+                Let's Connect
               </h2>
 
               <p className="mb-8 text-gray-600 leading-relaxed">
-                Whether you're exploring business transformation,
-                technology consulting, ERP implementation, or AI-driven
-                solutions, we'd love to understand your needs and discuss
-                how Ribionic can support your goals.
+  Whether you're exploring business transformation,
+  technology consulting, ERP implementation, AI-driven
+  solutions, or would like to share your profile for future
+  opportunities, we'd love to hear from you and understand
+  how we can work together.
               </p>
 
               <div className="space-y-6">
@@ -55,10 +56,10 @@ export default function ContactPage() {
 
                 <div>
                   <h3 className="font-semibold text-gray-900">
-                    Business Inquiries
+                    Business & Career Inquiries
                   </h3>
                   <p className="text-gray-600">
-                    We typically respond within 1 business day.
+                    We typically respond within 4-5 business days.
                   </p>
                 </div>
               </div>
