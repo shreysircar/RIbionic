@@ -41,5 +41,4 @@ body {
 
 .hero-zoom {
   animation: slowZoom 12s ease-out forwards;
-  will-change: transform;
 }
