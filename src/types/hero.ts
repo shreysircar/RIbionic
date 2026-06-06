@@ -12,4 +12,4 @@ export interface HeroSlide {
   buttonLink: string;
 
   isActive?: boolean;
-}
+}  

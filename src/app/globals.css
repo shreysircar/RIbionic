@@ -29,16 +29,17 @@ body {
   color: #111827;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 @keyframes slowZoom {
   from {
     transform: scale(1);
   }
-
   to {
-    transform: scale(1.12);
+    transform: scale(1.15);
   }
 }
 
 .hero-zoom {
-  animation: slowZoom 5s ease-out forwards;
+  animation: slowZoom 25s ease-in-out infinite alternate;
+  will-change: transform;
 }

@@ -20,13 +20,15 @@ export default function HeroSlide({
       }`}
     >
       {/* Background */}
-      <Image
-        src={slide.imageUrl}
-        alt={slide.title}
-        fill
-        priority
-        className="hero-zoom object-cover brightness-90 saturate-90"
-      />
+<Image
+  src={slide.imageUrl}
+  alt={slide.title}
+  fill
+  priority
+  className={`object-cover brightness-90 saturate-90 ${
+    isActive ? "hero-zoom" : ""
+  }`}
+/>
 
       {/* Content */}
       <div className="relative z-20 flex h-full items-end">
