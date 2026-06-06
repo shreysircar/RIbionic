@@ -101,44 +101,41 @@ const handleSubscribe = async () => {
 
             <div className="grid grid-cols-2 gap-x-10 gap-y-3 text-sm text-slate-400">
 
-              <span className="text-slate-400">
+         <Link href="/services#data-dynamics">
   Data Dynamics
-</span>
-               
-              
+</Link>
 
-             <span className="text-slate-400">
- Consulting
-</span>
-
-             <span className="text-slate-400">
+<Link href="/services#digital-delivery">
   Digital Delivery
-</span>
+</Link>
 
-<span className="text-slate-400">
- Accelerate ERP Development
-</span>
+<Link href="/services#application-lifecycle-services">
+  Application Lifecycle Services
+</Link>
 
-              <span className="text-slate-400">
+<Link href="/services#artificial-intelligence-value-chain">
+  Artificial Intelligence Value Chain
+</Link>
 
-                Application Lifecycle Services
-              </span>
+<Link href="/services#business-assurance-testing">
+  Business Assurance Testing
+</Link>
 
-              <span className="text-slate-400">
-                Virtuous Infrastructure
-              </span>
+<Link href="/services#consulting-that-delivers">
+  Consulting that Delivers
+</Link>
 
-              <span className="text-slate-400">
-                AI Value Chain
-              </span>
+<Link href="/services#accelerate-erp-apps-roll-outs">
+  Accelerate ERP, Apps Roll Outs
+</Link>
 
-              <span className="text-slate-400">
-                Experience First Services
-              </span>
+<Link href="/services#virtuous-infrastructure">
+  Virtuous Infrastructure
+</Link>
 
-              <span className="text-slate-400">
-                Business Assurance Testing
-              </span>
+<Link href="/services#experience-first-services">
+  Experience First Services
+</Link>
 
             </div>
           </div>
