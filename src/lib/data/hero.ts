@@ -38,6 +38,6 @@ export const heroSlides: HeroSlide[] = [
     "Track expenses, organize documents, manage reminders, and plan your day through one secure productivity platform.",
   imageUrl: "/images/hero/lekhajokha.jpeg",
   buttonText: "Explore",
-  buttonLink: "https://ribionic.com/downloads/",
+  buttonLink: "https://www.ribionic.com/products/",
 },
 ];
