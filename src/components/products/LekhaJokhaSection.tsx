@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Download, Smartphone } from "lucide-react";
 
 const features = [
   "Expense Tracking",
@@ -54,18 +54,33 @@ export default function LekhaJokhaSection() {
               </p>
             </div>
 
-            <div className="mt-10">
-              <Link
-                href="https://ribionic.com/lekhajokha/"
-                target="_blank"
-                className="inline-flex items-center gap-2 rounded-xl bg-[#025a6a] px-6 py-3 font-medium text-white transition hover:bg-[#4a9eb3]"
-              >
-                Visit Product
-                <ArrowRight size={18} />
-              </Link>
-            </div>
-          </div>
+       <div className="mt-10 flex flex-wrap gap-4">
+  <Link
+    href="https://ribionic.com/lekhajokha/"
+    target="_blank"
+    className="inline-flex items-center gap-2 rounded-xl bg-[#025a6a] px-6 py-3 font-medium text-white transition hover:bg-[#4a9eb3]"
+  >
+    Visit Product
+    <ArrowRight size={18} />
+  </Link>
 
+  <a
+    href="/downloads/lekhajokha.apk"
+    download
+    className="inline-flex items-center gap-2 rounded-xl border border-green-500/30 bg-green-500/10 px-6 py-3 font-medium text-green-400 transition hover:bg-green-500/20"
+  >
+    Download Android App
+    <Download size={18} />
+  </a>
+
+  <div
+    className="inline-flex items-center gap-2 rounded-xl border border-slate-700 bg-slate-800 px-6 py-3 font-medium text-slate-400 cursor-not-allowed"
+  >
+    iOS Coming Soon
+    <Smartphone size={18} />
+  </div>
+</div>
+</div>
           {/* Right Features */}
           <div className="grid gap-4 sm:grid-cols-2">
             {features.map((feature) => (
