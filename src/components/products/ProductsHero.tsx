@@ -20,7 +20,7 @@ export default function ProductsHero() {
           </h1>
 
           <p className="mt-6 max-w-3xl text-lg leading-relaxed text-slate-300">
-            Ribionic Solutions develops intelligent digital products that
+            Ribionic Solutions caters to both B2B and B2C space, developing intelligent digital products that
             simplify personal productivity, business operations, and enterprise
             management. From personal expense tracking and secure document
             management to integrated ERP platforms, our solutions are designed
