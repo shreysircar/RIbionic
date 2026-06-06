@@ -56,7 +56,7 @@ export default function LekhaJokhaSection() {
 
        <div className="mt-10 flex flex-wrap gap-4">
   <Link
-    href="https://ribionic.com/lekhajokha/"
+    href="https://app.ribionic.com"
     target="_blank"
     className="inline-flex items-center gap-2 rounded-xl bg-[#025a6a] px-6 py-3 font-medium text-white transition hover:bg-[#4a9eb3]"
   >

@@ -31,7 +31,7 @@ export default function ProductsCTA() {
 
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <Link
-              href="https://ribionic.com/lekhajokha/"
+              href="https://app.ribionic.com"
               target="_blank"
               className="
                 inline-flex items-center gap-2
