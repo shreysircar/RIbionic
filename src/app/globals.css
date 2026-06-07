@@ -42,3 +42,57 @@ body {
 .hero-zoom {
   animation: slowZoom 15s linear infinite;
 }
+
+@keyframes logoAppear {
+  from {
+    opacity: 0;
+    transform: scale(0.75);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes ringRotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes textFade {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.splash-logo {
+  animation: logoAppear 0.8s ease forwards;
+}
+
+.splash-ring {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border: 2px solid rgba(2, 90, 106, 0.15);
+  border-top-color: #025a6a;
+  border-radius: 9999px;
+  animation: ringRotate 1.8s linear infinite;
+}
+
+.splash-text {
+  animation: textFade 0.8s ease forwards;
+  animation-delay: 0.3s;
+  opacity: 0;
+}

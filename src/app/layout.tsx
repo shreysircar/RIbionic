@@ -1,5 +1,6 @@
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import SplashScreen from "@/components/SplashScreen";
 import "./globals.css";
 import { Space_Grotesk } from "next/font/google";
 
@@ -14,9 +15,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-<body className={spaceGrotesk.className}>
+      <body className={spaceGrotesk.className}>
+        <SplashScreen />
+
         <Navbar />
-        {children}
+
+        <main>
+          {children}
+        </main>
+
         <Footer />
       </body>
     </html>
