@@ -35,7 +35,7 @@ export default function SplashScreen() {
         />
       </div>
 
-      <p className="mt-8 text-sm tracking-[0.2em] text-slate-600 uppercase splash-text">
+      <p className="mt-8 text-sm tracking-[0.2em] text-slate-600 uppercase splash-text text-[#025a6a]">
         Transforming Ideas Into Intelligent Solutions
       </p>
     </div>

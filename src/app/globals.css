@@ -85,8 +85,9 @@ body {
   position: absolute;
   width: 150px;
   height: 150px;
-  border: 2px solid rgba(2, 90, 106, 0.15);
+  border: 2px solid rgba(74, 158, 179, 0.2);
   border-top-color: #025a6a;
+  border-right-color: #4a9eb3;
   border-radius: 9999px;
   animation: ringRotate 1.8s linear infinite;
 }
