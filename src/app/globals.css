@@ -89,7 +89,7 @@ body {
   border-top-color: #025a6a;
   border-right-color: #4a9eb3;
   border-radius: 9999px;
-  animation: ringRotate 1.8s linear infinite;
+  animation: ringRotate 3s linear infinite;
 }
 
 .splash-text {
