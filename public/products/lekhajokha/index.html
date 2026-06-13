@@ -1,0 +1,902 @@
+
+8 of 3,478
+(no subject)
+Inbox
+
+Sanjay Sircar
+Attachments
+Jun 12, 2026, 7:35 PM (1 day ago)
+to me
+
+
+ One attachment
+  •  Scanned by Gmail
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>LekhaJokha – One App to Hold Your Life Together</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Store and secure all your documents, bills, certificates, media, expenses and reminders in one private, on-device vault." />
+    <style>
+        :root {
+            --bg: #050816;
+            --bg-soft: #0b1020;
+            --accent: #025a6a;
+            --accent-soft: rgba(2, 90, 106, 0.12);
+            --text: #111827; /* deep slate, very readable */
+            --muted: #9ca3af; /* soft grey for secondary text */
+            --card: #111827;
+            --danger: #f97373;
+            --radius: 14px;
+            --shadow-soft: 0 18px 45px rgba(0,0,0,0.45);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+            background: #ffffff;
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        .page {
+            max-width: 1120px;
+            margin: 0 auto;
+            padding: 24px 16px 80px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 32px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+
+        .logo-mark {
+            width: 28px;
+            height: 28px;
+            border-radius: 999px;
+            background: radial-gradient(circle at 30% 20%, #7fc7d4, #025a6a);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+        }
+
+        nav {
+            display: flex;
+            gap: 18px;
+            font-size: 14px;
+            color: var(--muted);
+        }
+
+        .nav-link:hover {
+            color: var(--text);
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 18px;
+            border-radius: 999px;
+            font-size: 14px;
+            font-weight: 500;
+            border: 1px solid transparent;
+            cursor: pointer;
+            transition: all 0.18s ease-out;
+            gap: 8px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #025a6a, #4a9eb3);
+            color: white;
+            box-shadow: 0 14px 35px rgba(79, 70, 229, 0.45);
+        }
+
+            .btn-primary:hover {
+                transform: translateY(-1px);
+                box-shadow: 0 18px 45px rgba(79, 70, 229, 0.6);
+            }
+
+        .btn-ghost {
+            background: transparent;
+            border-color: rgba(148, 163, 184, 0.4);
+            color: var(--muted);
+        }
+
+            .btn-ghost:hover {
+                border-color: rgba(249, 250, 251, 0.7);
+                color: var(--text);
+                background: rgba(15, 23, 42, 0.8);
+            }
+
+        /* HERO */
+        .hero {
+            display: grid;
+            grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+            gap: 40px;
+            align-items: center;
+            margin-top: 32px;
+            margin-bottom: 56px;
+        }
+
+        .hero-kicker {
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.16em;
+            color: var(--muted);
+            margin-bottom: 10px;
+        }
+
+        .hero-title {
+            font-size: 40px;
+            line-height: 1.1;
+            margin-bottom: 16px;
+        }
+
+.hero-title span {
+    background: linear-gradient(135deg, #4a9eb3, #025a6a);
+}
+
+        .hero-sub {
+            color: var(--muted);
+            font-size: 15px;
+            margin-bottom: 22px;
+            max-width: 480px;
+        }
+
+        .hero-ctas {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 14px;
+        }
+
+        .hero-trust {
+            font-size: 12px;
+            color: var(--muted);
+        }
+
+.hero-trust span {
+    color: #025a6a;
+}
+        .hero-right {
+            background: radial-gradient(circle at top left, rgba(2, 90, 106, 0.35), transparent 55%), radial-gradient(circle at bottom right, rgba(8, 47, 73, 0.7), transparent 60%);
+            border-radius: 26px;
+            padding: 18px;
+            box-shadow: var(--shadow-soft);
+            border: 1px solid rgba(148, 163, 184, 0.25);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .phone-frame {
+            background: #020617;
+            border-radius: 26px;
+            padding: 14px;
+            border: 1px solid rgba(148, 163, 184, 0.35);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .phone-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 11px;
+            color: var(--muted);
+        }
+
+        .phone-screen {
+            flex: 1;
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 10px;
+            margin-top: 8px;
+        }
+
+        .folder-card {
+            background: rgba(15, 23, 42, 0.95);
+            border-radius: 14px;
+            padding: 10px;
+            border: 1px solid rgba(148, 163, 184, 0.25);
+            font-size: 11px;
+        }
+
+        .folder-title {
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .folder-meta {
+            color: var(--muted);
+            font-size: 10px;
+        }
+
+        .chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 4px 8px;
+            border-radius: 999px;
+            background: rgba(15, 23, 42, 0.9);
+            border: 1px solid rgba(148, 163, 184, 0.4);
+            font-size: 10px;
+            color: var(--muted);
+            position: absolute;
+        }
+
+        .chip-top {
+            top: 12px;
+            right: 18px;
+        }
+
+        .chip-bottom {
+            bottom: 12px;
+            left: 18px;
+        }
+
+        /* STRIP */
+        .moments-strip {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 14px;
+            margin-bottom: 52px;
+        }
+
+        .moment-card {
+            background: rgba(15, 23, 42, 0.9);
+            border-radius: var(--radius);
+            padding: 12px;
+            border: 1px solid rgba(148, 163, 184, 0.25);
+            font-size: 12px;
+            color: var(--muted);
+        }
+
+        .moment-tag {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.16em;
+            color: #e5e7eb;
+            margin-bottom: 6px;
+        }
+
+        /* SECTION */
+        section {
+            margin-bottom: 56px;
+        }
+
+        .section-kicker {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.16em;
+            color: var(--muted);
+            margin-bottom: 6px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .section-sub {
+            font-size: 14px;
+            color: var(--muted);
+            max-width: 520px;
+            margin-bottom: 20px;
+        }
+
+        .two-col {
+            display: grid;
+            grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+            gap: 28px;
+            align-items: flex-start;
+        }
+
+        .pill-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .pill {
+            font-size: 11px;
+            padding: 4px 10px;
+            border-radius: 999px;
+            background: rgba(15, 23, 42, 0.9);
+            border: 1px solid rgba(148, 163, 184, 0.4);
+            color: var(--muted);
+        }
+
+        .feature-list {
+            list-style: none;
+            font-size: 13px;
+            color: #a9a9a9; /* dark slate grey */
+            font-weight: 600;
+            display: grid;
+            gap: 8px;
+        }
+
+.feature-list li span {
+    color: #025a6a;
+}
+        /* AUDIENCE BANDS */
+        .audience-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 18px;
+        }
+
+        .audience-card {
+            background: rgba(15, 23, 42, 0.95);
+            border-radius: var(--radius);
+            padding: 16px 16px 14px;
+            border: 1px solid rgba(148, 163, 184, 0.3);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .audience-label {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.16em;
+            color: var(--muted);
+            margin-bottom: 4px;
+        }
+
+        .audience-title {
+            font-size: 16px;
+            margin-bottom: 6px;
+        }
+
+        .audience-hook {
+            font-size: 13px;
+            color: #e5e7eb;
+            margin-bottom: 8px;
+        }
+
+        .audience-copy {
+            font-size: 12px;
+            color: var(--muted);
+            margin-bottom: 8px;
+        }
+
+.audience-tagline {
+    color: #4a9eb3;
+}
+        .audience-image-placeholder {
+            position: absolute;
+            right: -8px;
+            bottom: -8px;
+            width: 90px;
+            height: 90px;
+            border-radius: 999px;
+            background: radial-gradient(
+    circle at 30% 20%,
+    rgba(74, 158, 179, 0.9),
+    rgba(15, 23, 42, 0.9)
+);
+            opacity: 0.7;
+        }
+
+        /* PRIVACY / CTA */
+        .privacy-card {
+            background: rgba(15, 23, 42, 0.95);
+            border-radius: var(--radius);
+            padding: 18px;
+            border: 1px solid rgba(148, 163, 184, 0.35);
+            display: grid;
+            grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+            gap: 20px;
+            align-items: center;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 4px 10px;
+            border-radius: 999px;
+            background: var(--accent-soft);
+color: #4a9eb3;
+            font-size: 11px;
+            margin-bottom: 8px;
+        }
+
+        .badge-dot {
+            width: 7px;
+            height: 7px;
+            border-radius: 999px;
+            background: #22c55e;
+        }
+
+        .aqi-pill {
+            font-size: 11px;
+            padding: 6px 10px;
+            border-radius: 999px;
+            background: rgba(8, 47, 73, 0.9);
+            color: #e0f2fe;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+            .aqi-pill span {
+                font-weight: 600;
+            }
+
+        .cta-final {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+            .cta-final h2 {
+                font-size: 22px;
+                margin-bottom: 8px;
+            }
+
+            .cta-final p {
+                font-size: 14px;
+                color: var(--muted);
+                margin-bottom: 16px;
+            }
+
+        footer {
+            margin-top: 40px;
+            font-size: 11px;
+            color: var(--muted);
+            text-align: center;
+        }
+
+        @media (max-width: 900px) {
+            .hero,
+            .two-col,
+            .privacy-card {
+                grid-template-columns: minmax(0, 1fr);
+            }
+
+            .moments-strip {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+
+            .audience-grid {
+                grid-template-columns: minmax(0, 1fr);
+            }
+        }
+        
+        /* =========================
+           HOW SECTION IMPROVEMENTS
+           ========================= */
+        
+        .how-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 18px;
+            margin-top: 20px;
+        }
+        
+        .how-card {
+            background: rgba(15, 23, 42, 0.95);
+            padding: 18px;
+            border-radius: 14px;
+            border: 1px solid rgba(148, 163, 184, 0.3);
+            transition: all 0.2s ease;
+        }
+        
+        .how-card:hover {
+            transform: translateY(-2px);
+          border-color: #025a6a;
+        }
+        
+        .how-step {
+            width: 28px;
+            height: 28px;
+            border-radius: 999px;
+            background: linear-gradient(135deg, #4f46e5, #6366f1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: white;
+            font-size: 13px;
+        }
+        
+        /* Typography fix */
+        .how-grid h3 {
+            font-size: 15px;
+            margin-bottom: 6px;
+            font-weight: 600;
+            color: #e5e7eb;
+        }
+        
+        .how-grid p {
+            font-size: 13px;
+            color: #9ca3af;
+            line-height: 1.5;
+        }
+        
+        .how-grid {
+            margin-bottom: 28px;
+        }
+        
+        /* Slightly reduce section header */
+        #how .section-title {
+            font-size: 22px;
+        }
+        
+        #how .section-sub {
+            font-size: 13.5px;
+        }
+        
+        /* Mobile */
+        @media (max-width: 768px) {
+            .how-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 640px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+
+            .hero-title {
+                font-size: 30px;
+            }
+
+            .moments-strip {
+                grid-template-columns: minmax(0, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <header>
+            <div class="logo">
+                <div class="logo-mark">LJ</div>
+                <div>LEKHAJOKHA  -  Used by 1200+ early users, Managing 8,500+ documents & Renewals</div>
+            </div>
+            <nav>
+                <a href="#how" class="nav-link">How it works</a>
+                <a href="#who" class="nav-link">Who it’s for</a>
+                <a href="#privacy" class="nav-link">Privacy</a>
+                <a href="#download" class="nav-link">Download</a>
+            </nav>
+        </header>
+
+        <!-- HERO -->
+        <section class="hero">
+            <div>
+                <div class="hero-kicker">All your life’s documents, in one private vault - your CV, academic certificates, visa copies, contracts etc. Plan your ToDo's, track renewals - subscriptions, insurance - life, medical, vehicle, AMC's ...             </div>
+                <h1 class="hero-title">
+                    One app to <span>hold your life together</span>—quietly, securely.
+                </h1>
+                <p class="hero-sub">
+                    Stop digging through email, WhatsApp, random folders or box files at home. Keep <b>every document</b>, bill, certificate, memories(videos, audio, photos - your <b>Insta</b> at your command) and reminders in one place—on your device, under your lock. Plan and track your <b>ToDo's</b> and all your <b>expenses</b> effortlessly!
+                </p>
+                <div class="hero-ctas">
+                    <a href="#download" class="btn btn-primary">
+                        Download the app
+                    </a>
+                    <a href="#how" class="btn btn-ghost">
+                        See how it works
+                    </a>
+                </div>
+                <p class="hero-trust">
+                    <span>On-device only.</span> No cloud dependency. No data mining. Just calm, organized control.
+                </p>
+            </div>
+            <div class="hero-right">
+                <!-- You can replace this entire block with a real phone mockup image -->
+                <div class="phone-frame">
+                    <div class="phone-top" style="color: #ffffff;">
+                        <span>Documents ... Videos... Audios... Photos... Albums ...</span>
+                        <span>🔒 Personal Vault</span>
+                    </div>
+                    <div class="phone-screen">
+                        <div class="folder-card" style="color: #ffffff;">
+                            <div class="folder-title">Graduation & Career</div>
+                            <div class="folder-meta">Mark sheets, degrees, resumes, offer letters</div>
+                        </div>
+                        <div class="folder-card" style="color: #ffffff;">
+                            <div class="folder-title">Home & Family</div>
+                            <div class="folder-meta">Bills, AMCs, insurance, PUC, medical docs</div>
+                        </div>
+                        <div class="folder-card" style="color: #ffffff;">
+                            <div class="folder-title">Business & GST</div>
+                            <div class="folder-meta">Invoices, licenses, contracts, returns</div>
+                        </div>
+                        <div class="folder-card" style="color: #ffffff;">
+                            <div class="folder-title">Sales Trips</div>
+                            <div class="folder-meta">$ / £ / € / ₹ bills + conversions</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chip chip-top" style="color: #ffffff;">
+                    <span>📈 12‑month expense graph</span>
+                </div>
+                <div class="chip chip-bottom" style="color: #ffffff;">
+                    <span>🌫 AQI in real time</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- LIFE MOMENTS STRIP -->
+        <section>
+            <div class="moments-strip">
+                <div class="moment-card" style="color: #ffffff;">
+                    <!-- Replace with an illustration of a graduation cap / certificate -->
+                    <div class="moment-tag">Students</div>
+                    <div><strong>The day HR asks for that one certificate</strong>—you already know where it is.</div>
+                </div>
+                <div class="moment-card" style="color: #ffffff;">
+                    <!-- Replace with an illustration of a technician at the door -->
+                    <div class="moment-tag">Household</div>
+                    <div><strong>The day the washing machine breaks</strong>—you don’t scramble for the warranty.</div>
+                </div>
+                <div class="moment-card" style="color: #ffffff;">
+                    <!-- Replace with a business desk / laptop -->
+                    <div class="moment-tag">Business</div>
+                    <div><strong>The day your CA needs last year’s invoices</strong>—you send them in one go.</div>
+                </div>
+                <div class="moment-card" style="color: #ffffff;">
+                    <!-- Replace with a salesperson at airport / cab -->
+                    <div class="moment-tag">Sales</div>
+                    <div><strong>The day finance asks for all trip bills</strong>—you’re done in minutes, not nights.</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CORE VALUE -->
+        <section id="how">
+            <div class="two-col">
+                <div >
+            <div class="section-kicker">How it works</div>
+            <h2 class="section-title">Organize your life in minutes, not days.</h2>
+            <p class="section-sub">
+                LekhaJokha is designed to feel natural. No complicated setup. Just start and build your system gradually.
+            </p>
+            
+            <div class="how-grid">
+            
+                <div class="how-card">
+                    <div class="how-step">1</div>
+                    <h3>Add your documents</h3>
+                    <p>
+                        Tap the purple <strong>+</strong> button on your mobile screen to upload documents, photos, videos, or bills. 
+                        Create folders the way you think—“Car”, “Home”, “Doctor's Presciptions”, “Kids School”.
+                    </p>
+                </div>
+            
+                <div class="how-card">
+                    <div class="how-step">2</div>
+                    <h3>Track tasks & reminders</h3>
+                    <p>
+                        Add your ToDo items and expiry reminders. When a task is done, tap once. 
+                        Unfinished items roll over automatically to the next day.
+                    </p>
+                </div>
+            
+                <div class="how-card">
+                    <div class="how-step">3</div>
+                    <h3>Secure everything</h3>
+                    <p>
+                        Lock your Personal Vault with a PIN. Keep sensitive documents private. 
+                        Everything stays on your device.
+                    </p>
+                </div>
+            
+                <div class="how-card">
+                    <div class="how-step">4</div>
+                    <h3>Backup & stay in control</h3>
+                    <p>
+                        Backup locally and restore anytime. Track your expenses with a 12-month graph 
+                        and see spending in one currency.
+                        
+                    </p>
+                </div>
+            
+            </div>
+                    <ul class="feature-list">
+                        <li><span>Peace of mind:</span> Your important documents are not “somewhere”. They’re here.</li>
+                        <li><span>Future‑you will be grateful:</span> Renewals, policies, AMCs, PUCs—reminders arrive before panic does.</li>
+                        <li><span>No judgment, just order:</span> Name folders the way you think: “First Job”, “Car – Dad”, “Kids – School”, “Sales – Europe Trip”.</li>
+                        <li><span>Private by design:</span> Everything stays on your device. Your life is not a product.</li>
+                    </ul>
+                </div>
+                <div>
+                    <!-- Replace this with a before/after graphic -->
+                    <div class="section-sub" style="margin-bottom:8px;">
+                        Imagine one screen that quietly replaces:
+                    </div>
+                    <div class="pill-list" style="color: #ffffff;">
+                        <div class="pill">ToDo Lists</div>
+                        <div class="pill">Unbilled Expenses</div>
+                        <div class="pill">Email attachments</div>
+                        <div class="pill">WhatsApp forwards</div>
+                        <div class="pill">Random downloads</div>
+                        <div class="pill">Screenshots</div>
+                        <div class="pill">Loose PDFs</div>
+                        <div class="pill">Scattered bills</div>
+                    </div>
+                    <div class="section-sub" style="margin-top:16px;">
+                        Store:
+                        <br />• Personal IDs, certificates, policies, AMCs, PUCs
+                        <br />• Bills, invoices, warranties, contracts
+                        <br />• Photos, videos, audio files
+                        <br />• Multi‑currency expenses with instant conversion
+                        <br />• AQI‑aware reminders for your day
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- AUDIENCE BANDS -->
+        <section id="who">
+            <div class="section-kicker">Who it’s built for</div>
+            <h2 class="section-title">One app. Four lives. Infinite calm.</h2>
+            <p class="section-sub">
+                Whether you’re graduating, running a home, building a business, or living on the road—this becomes your quiet superpower.
+            </p>
+
+            <div class="audience-grid" style="color: #ffffff;">
+                <!-- Students -->
+                <div class="audience-card">
+                    <div class="audience-label">Graduating students</div>
+                    <div class="audience-title">For students stepping into the real world.</div>
+                    <div class="audience-hook">
+                        The world will ask you for proof—of who you are and what you’ve done. You shouldn’t have to beg old emails for it.
+                    </div>
+                    <div class="audience-copy">
+                        Lock your journey: mark sheets, degrees, ID proofs, resumes, portfolios, internship letters—secured in your personal vault. Whether it’s a job, higher studies, or a visa, your documents are ready before the opportunity is.
+                    </div>
+                    <div class="audience-tagline">
+                        You focus on your future. We’ll guard your past.
+                    </div>
+                    <div class="audience-image-placeholder"></div>
+                </div>
+
+                <!-- Household managers -->
+                <div class="audience-card">
+                    <div class="audience-label">Household managers</div>
+                    <div class="audience-title">For the ones who keep the home running.</div>
+                    <div class="audience-hook">
+                        You remember everyone’s schedules, medicines, fees, and bills. But who remembers you?
+                    </div>
+                    <div class="audience-copy">
+                        Appliance bills, AMCs, insurance policies, car papers, school docs, medical records—filed once, found forever. When the service person arrives, you open one folder, not ten apps. Renewals and expiries are tracked so nothing silently lapses.
+                    </div>
+                    <div class="audience-tagline">
+                        You’ve been managing everything for everyone. Let this app manage things for you.
+                    </div>
+                    <div class="audience-image-placeholder"></div>
+                </div>
+
+                <!-- Business people -->
+                <div class="audience-card">
+                    <div class="audience-label">Business & professionals</div>
+                    <div class="audience-title">For people whose work runs on documents.</div>
+                    <div class="audience-hook">
+                        Your time is too expensive to be spent searching for PDFs.
+                    </div>
+                    <div class="audience-copy">
+                        Licenses, GST docs, contracts, invoices, agreements—organized by client, year, or project. Share what your CA, lawyer, or client needs in seconds. A 12‑month expense graph gives you a quick sense of where your money is going.
+                    </div>
+                    <div class="audience-tagline">
+                        Less hunting, more building.
+                    </div>
+                    <div class="audience-image-placeholder"></div>
+                </div>
+
+                <!-- Salespeople -->
+                <div class="audience-card">
+                    <div class="audience-label">Sales & field teams</div>
+                    <div class="audience-title">For people always on the move.</div>
+                    <div class="audience-hook">
+                        You close deals all day. You shouldn’t lose sleep over reimbursements at night.
+                    </div>
+                    <div class="audience-copy">
+                        Capture every bill on the spot—hotel, food, cab, flights. Store them in $, £, €, ₹ and see instant conversions. When finance asks, you send everything in one clean batch instead of rebuilding your month from memory.
+                    </div>
+                    <div class="audience-tagline">
+                        You bring in the revenue. We make sure your money comes back to you.
+                    </div>
+                    <div class="audience-image-placeholder"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRIVACY & AQI -->
+        <section id="privacy">
+            <div class="privacy-card" style="color: #ffffff;">
+                <div>
+                    <div class="badge">
+                        <span class="badge-dot"></span>
+                        On‑device. Not on someone else’s server.
+                    </div>
+                    <h2 class="section-title">Because your life is not meant to be mined.</h2>
+                    <p class="section-sub">
+                        Your documents live on your phone, not on some unknown cloud. No data mining, no ads, no algorithms watching your life.
+                    </p>
+                    <ul class="feature-list">
+                        <li><span>On‑device only:</span> Your vault is stored locally. You control backups and restores.</li>
+                        <li><span>Personal Vault:</span> Extra‑locked space for your most sensitive documents.</li>
+                        <li><span>Encrypted backups:</span> Move to a new phone without giving up control.</li>
+                    </ul>
+                </div>
+                <div>
+                    <!-- AQI + lifestyle angle -->
+                    <p class="section-sub">
+                        And because life is more than paperwork, you also get real‑time AQI every 15 minutes—so you can decide when to step out, exercise, or send kids to play.
+                    </p>
+                    <div class="aqi-pill">
+                        <span>AQI 78</span> • Updated 2 min ago • Safe to go for a walk
+                    </div>
+                    <p class="section-sub" style="margin-top:14px;">
+                        We don’t just organize your life. We respect it.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FINAL CTA -->
+        <section id="download" class="cta-final">
+            <h2>Ready to stop searching and start living organized?</h2>
+            <p>
+                It takes minutes to set up—and saves you hours every month, plus a lifetime of “Where did I keep that?”.
+            </p>
+            <div class="hero-ctas" style="justify-content:center;">
+                <a href="https://ribionic.com/downloads/lekhajokha.apk" class="btn btn-primary">
+                    Download for Android
+                </a>
+                <a href="#" class="btn btn-ghost">
+                    iOS – coming soon
+                </a>
+            </div>
+        </section>
+
+        <footer>
+            © <span id="year"></span> LekhaJokha. All rights reserved.
+        </footer>
+    </div>
+
+    <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
