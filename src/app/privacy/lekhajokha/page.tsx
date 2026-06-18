@@ -5,27 +5,54 @@ export default function LekhaJokhaPrivacyPage() {
     <main className="bg-white min-h-screen">
       
       {/* Top Gradient */}
-      <section className="pt-32 pb-16 bg-gradient-to-b from-[#025a6a]/10 to-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <p className="text-sm uppercase tracking-wider text-[#025a6a] font-medium">
-            Privacy Policy
-          </p>
+    <section className="relative overflow-hidden pt-40 pb-24">
+  <div className="absolute inset-0 bg-gradient-to-br from-[#025a6a] via-[#036d80] to-[#4a9eb3]" />
 
-          <h1 className="mt-3 text-4xl md:text-5xl font-bold text-[#292524]">
-            LekhaJokha Privacy Policy
-          </h1>
+  <div className="absolute inset-0 bg-black/20" />
 
-          <p className="mt-4 text-stone-600">
-            Last Updated: June 2026
-          </p>
-        </div>
-      </section>
+  <div className="relative max-w-5xl mx-auto px-6">
+    <span className="inline-flex rounded-full border border-white/20 bg-white/10 px-4 py-1 text-sm font-medium text-white backdrop-blur-sm">
+      Privacy Policy
+    </span>
+
+    <h1 className="mt-6 text-5xl md:text-6xl font-bold text-white">
+      LekhaJokha Privacy Policy
+    </h1>
+
+    <p className="mt-4 text-lg text-white/80">
+      Last Updated: June 2026
+    </p>
+  </div>
+</section>
 
       {/* Content */}
       <section className="pb-24">
         <div className="max-w-4xl mx-auto px-6 prose prose-stone max-w-none">
           
-      <article className="prose prose-stone max-w-none prose-headings:text-[#292524] prose-p:text-stone-700 prose-li:text-stone-700">
+<article
+  className="
+    max-w-4xl
+    mx-auto
+    px-6
+    prose
+    prose-lg
+    prose-headings:font-bold
+    prose-headings:text-[#025a6a]
+    prose-h2:text-3xl
+    prose-h2:border-b
+    prose-h2:border-[#025a6a]/15
+    prose-h2:pb-3
+    prose-h3:text-xl
+    prose-h3:text-[#4a9eb3]
+    prose-p:text-stone-700
+    prose-p:leading-8
+    prose-strong:text-[#025a6a]
+    prose-li:marker:text-[#025a6a]
+    prose-ul:mt-2
+    prose-ul:mb-6
+    prose-li:my-1
+  "
+>
   <p>
     LekhaJokha is a personal productivity, document management, expense
     tracking, subscription management, renewal tracking, warranty management,
