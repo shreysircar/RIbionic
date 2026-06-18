@@ -470,7 +470,7 @@ export default function LekhaJokhaPrivacyPage() {
               <h2>16. Contact Us</h2>
 
               <p>
-                If you have questions about this Privacy Policy or your personal
+                If you have questions regarding this Privacy Policy or your personal
                 information, please contact:
               </p>
 
