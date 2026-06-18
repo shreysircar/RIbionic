@@ -10,7 +10,7 @@ export default function TermsPage() {
         </h1>
 
         <p className="mt-4 text-slate-500">
-          Last Updated: August 2026
+          Last Updated: June 2026
         </p>
 <div className="mt-12 space-y-10">
           <p>

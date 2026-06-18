@@ -54,7 +54,7 @@ export default function LekhaJokhaSection() {
               </p>
             </div>
 
-       <div className="mt-10 flex flex-wrap gap-4">
+      <div className="mt-10 flex flex-wrap gap-4">
   <Link
     href="https://app.ribionic.com"
     target="_blank"
@@ -72,6 +72,13 @@ export default function LekhaJokhaSection() {
     Download Android App
     <Download size={18} />
   </a>
+
+  <Link
+    href="/privacy/lekhajokha"
+    className="inline-flex items-center gap-2 rounded-xl border border-[#4a9eb3]/30 bg-[#4a9eb3]/10 px-6 py-3 font-medium text-[#4a9eb3] transition hover:bg-[#4a9eb3]/20"
+  >
+    Privacy Policy
+  </Link>
 
   <div
     className="inline-flex items-center gap-2 rounded-xl border border-slate-700 bg-slate-800 px-6 py-3 font-medium text-slate-400 cursor-not-allowed"
