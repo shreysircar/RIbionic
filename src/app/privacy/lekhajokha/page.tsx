@@ -230,11 +230,21 @@ export default function LekhaJokhaPrivacyPage() {
           <h2 className="text-2xl font-bold text-slate-900">7. Payments and Subscriptions</h2>
 
           <p>
-            Paid subscriptions may be processed through trusted third-party payment
-            providers, including Razorpay.
+            Paid subscriptions may be processed through trusted third-party payment providers, including Razorpay and other authorized payment processors.
           </p>
 
-          <p>We do not store:</p>
+<p>Ribionic Solutions may store subscription-related information necessary to provide services, including:</p>
+          <ul className="list-disc pl-6 space-y-1 text-slate-700">
+            <li>Subscription plan details</li>
+            <li>Subscription status</li>
+            <li>License activation information</li>
+            <li>License renewal information</li>
+            <li>Transaction references</li>
+            <li>Payment verification information</li>
+            <li>Invoice references</li>
+            <li>Subscription renewal records</li>
+          </ul>
+          <p>Ribionic Solutions does not store:</p>
 
           <ul className="list-disc pl-6 space-y-1 text-slate-700">
             <li>Credit card numbers</li>
@@ -242,12 +252,12 @@ export default function LekhaJokhaPrivacyPage() {
             <li>CVV numbers</li>
             <li>UPI PINs</li>
             <li>Net banking credentials</li>
+            <li>Bank account passwords</li>
             <li>Other sensitive payment credentials</li>
           </ul>
 
           <p>
-            Payment information is processed directly by the payment provider under its
-            own privacy and security policies.
+Payment credentials are processed directly by the payment provider under its own privacy and security policies.
           </p>
 
           <h2 className="text-2xl font-bold text-slate-900">8. How We Use Information</h2>
@@ -267,6 +277,7 @@ export default function LekhaJokhaPrivacyPage() {
             <li>Maintain service security</li>
             <li>Comply with legal obligations</li>
           </ul>
+          <p>We may also use account, subscription, and license-related information to validate active subscriptions, verify license eligibility, prevent unauthorized use of the service, and maintain the integrity and security of the LekhaJokha platform.</p>
 
           <h2 className="text-2xl font-bold text-slate-900">9. Information Sharing</h2>
 
@@ -357,7 +368,30 @@ export default function LekhaJokhaPrivacyPage() {
             Requests may be submitted using the contact information below.
           </p>
 
-          <h2 className="text-2xl font-bold text-slate-900">13. Children's Privacy</h2>
+                    <h2 className="text-2xl font-bold text-slate-900">13. Account Deletion</h2>
+
+          <p>Users may request deletion of their LekhaJokha account and personal information maintained by Ribionic Solutions. Account deletion requests may be submitted by contacting:
+
+<b>support@ribionic.com</b></p>
+
+<p>Upon successful verification of account ownership, Ribionic Solutions will delete or anonymize personal information associated with the account, except where retention is required by applicable law, taxation requirements, fraud prevention obligations, dispute resolution requirements, security purposes, or legitimate business recordkeeping obligations.</p>
+         
+         <p>Information that may be retained for legal or operational reasons includes:</p>
+         
+          <ul className="list-disc pl-6 space-y-1 text-slate-700">
+            <li>Subscription transaction records</li>
+            <li>Payment verification records</li>
+            <li>Tax and accounting records</li>
+            <li>Security and fraud-prevention records</li>
+            <li>Information required by applicable laws and regulations</li>
+          </ul>
+
+          <p>Deletion of an account may result in loss of access to subscription services, license entitlements, and account-related features.
+          </p>
+<p>User documents, images, videos, audio recordings, backups, and other locally stored content remain under the user's control and are not retained by Ribionic Solutions as part of normal application operations.</p>
+
+
+          <h2 className="text-2xl font-bold text-slate-900">14. Children's Privacy</h2>
 
           <p>
             LekhaJokha is not intended for children under the age of 13.
@@ -369,7 +403,7 @@ export default function LekhaJokhaPrivacyPage() {
             we will take reasonable steps to remove it.
           </p>
 
-          <h2 className="text-2xl font-bold text-slate-900">14. Third-Party Services</h2>
+          <h2 className="text-2xl font-bold text-slate-900">15. Third-Party Services</h2>
 
           <p>
             LekhaJokha may use third-party service providers, including:
@@ -388,7 +422,7 @@ export default function LekhaJokhaPrivacyPage() {
             service.
           </p>
 
-          <h2 className="text-2xl font-bold text-slate-900">15. Changes to this Privacy Policy</h2>
+          <h2 className="text-2xl font-bold text-slate-900">16. Changes to this Privacy Policy</h2>
 
           <p>
             We may update this Privacy Policy from time to time.
@@ -403,7 +437,7 @@ export default function LekhaJokhaPrivacyPage() {
             acceptance of the revised Privacy Policy.
           </p>
 
-          <h2 className="text-2xl font-bold text-slate-900">16. Contact Us</h2>
+          <h2 className="text-2xl font-bold text-slate-900">17. Contact Us</h2>
 
           <p>
             If you have questions about this Privacy Policy or your personal

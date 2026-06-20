@@ -114,8 +114,7 @@ export default function PrivacyPage() {
       <h2 className="text-2xl font-bold text-slate-900">Contact</h2>
 
           <p>
-            If you have any questions about this Privacy Policy, you
-            may contact us via the contact page on the website.
+If you have any questions about this Privacy Policy, you may contact us on <b>support@ribionic.com</b> or via the contact page on the website.
           </p>
         </div>
       </section>
