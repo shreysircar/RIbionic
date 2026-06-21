@@ -213,6 +213,13 @@ const handleSubscribe = async () => {
               </Link>
 
               <Link
+                href="/privacy/lekhajokha"
+                className="transition hover:text-white"
+              >
+                Privacy Policy (LekhaJokha)
+              </Link>
+
+              <Link
                 href="/terms"
                 className="transition hover:text-white"
               >
