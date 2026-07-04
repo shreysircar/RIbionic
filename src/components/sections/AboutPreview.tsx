@@ -55,10 +55,10 @@ className="
                 {data.images.map((image) => (
                   <div
                     key={image.id}
-                    className="flex-[0_0_100%] sm:flex-[0_0_50%] lg:flex-[0_0_33.333%] px-0 sm:px-3"
+                    className="flex-[0_0_100%] sm:flex-[0_0_50%] lg:flex-[0_0_33.333%] px-3"
                   >
-<div className="group max-w-md mx-auto">
-  <div className="relative aspect-[5/3] sm:aspect-square overflow-hidden rounded-3xl">
+<div className="group">
+  <div className="relative aspect-square overflow-hidden rounded-3xl">
     <Image
       src={image.imageUrl}
       alt={image.title}
@@ -105,48 +105,7 @@ className="
           </div>
 
         
-       {/* Mobile Right Side */}
-<div className="sm:hidden">
-  <div className="overflow-hidden w-full" ref={emblaRef}>
-    <div className="flex">
-      {data.images.map((image) => (
-        <div
-          key={image.id}
-          className="flex-[0_0_100%]"
-        >
-          <div className="relative h-64 overflow-hidden rounded-3xl">
-            <Image
-              src={image.imageUrl}
-              alt={image.title}
-              fill
-              className="object-cover"
-            />
-          </div>
-
-          <h3 className="mt-4 text-center text-xl font-semibold text-slate-900">
-            {image.title}
-          </h3>
-        </div>
-      ))}
-    </div>
-  </div>
-
-  <div className="mt-6 flex justify-center gap-4">
-    <button
-      onClick={() => emblaApi?.scrollPrev()}
-      className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-300"
-    >
-      <ChevronLeft size={18} />
-    </button>
-
-    <button
-      onClick={() => emblaApi?.scrollNext()}
-      className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-300"
-    >
-      <ChevronRight size={18} />
-    </button>
-  </div>
-</div>
+ 
 
         </div>
       </div>
