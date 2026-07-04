@@ -31,8 +31,8 @@ export default function AboutPreview({ data }: Props) {
             </p>
           </div>
 
-          {/* Right Side */}
-          <div className="block sm:flex sm:items-center sm:gap-4">
+          {/* Desktop Right Side */}
+<div className="hidden sm:flex items-center gap-4">
             {/* Left Arrow */}
             <button
               onClick={() => emblaApi?.scrollPrev()}
@@ -104,22 +104,49 @@ className="
             </button>
           </div>
 
-          {/* Mobile Arrows */}
-          <div className="flex justify-center gap-4 mt-6 sm:hidden">
-            <button
-              onClick={() => emblaApi?.scrollPrev()}
-           className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-300 bg-white text-slate-700 transition-all duration-300 hover:border-[#4a9eb3] hover:text-[#4a9eb3]"
-            >
-              <ChevronLeft size={18} />
-            </button>
-
-            <button
-              onClick={() => emblaApi?.scrollNext()}
-      className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-300 bg-white text-slate-700 transition-all duration-300 hover:border-[#4a9eb3] hover:text-[#4a9eb3]"
-            >
-              <ChevronRight size={18} />
-            </button>
+        
+       {/* Mobile Right Side */}
+<div className="sm:hidden">
+  <div className="overflow-hidden w-full" ref={emblaRef}>
+    <div className="flex">
+      {data.images.map((image) => (
+        <div
+          key={image.id}
+          className="flex-[0_0_100%]"
+        >
+          <div className="relative h-64 overflow-hidden rounded-3xl">
+            <Image
+              src={image.imageUrl}
+              alt={image.title}
+              fill
+              className="object-cover"
+            />
           </div>
+
+          <h3 className="mt-4 text-center text-xl font-semibold text-slate-900">
+            {image.title}
+          </h3>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <div className="mt-6 flex justify-center gap-4">
+    <button
+      onClick={() => emblaApi?.scrollPrev()}
+      className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-300"
+    >
+      <ChevronLeft size={18} />
+    </button>
+
+    <button
+      onClick={() => emblaApi?.scrollNext()}
+      className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-300"
+    >
+      <ChevronRight size={18} />
+    </button>
+  </div>
+</div>
 
         </div>
       </div>
