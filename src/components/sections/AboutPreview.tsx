@@ -23,7 +23,7 @@ const [mobileEmblaRef, mobileEmblaApi] = useEmblaCarousel({
   return (
 <section className="bg-white py-12 sm:py-16 lg:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
-       <div className="grid gap-8 lg:gap-10 lg:grid-cols-[320px_1fr]">
+      <div className="grid min-w-0 gap-8 lg:gap-10 lg:grid-cols-[320px_1fr]">
           {/* Left Content */}
           <div className="flex flex-col justify-center text-center lg:text-left">
 
@@ -56,7 +56,7 @@ className="
 
             {/* Carousel */}
             <div className="min-w-0 flex-1 overflow-hidden" ref={desktopEmblaRef}>
-              <div className="flex">
+              <div className="flex items-center">
                 {data.images.map((image) => (
                   <div
                     key={image.id}
@@ -105,15 +105,18 @@ className="
           </div>
 
   {/* Mobile Right Side */}
-<div className="sm:hidden">
-  <div className="w-full overflow-hidden" ref={mobileEmblaRef}>
-    <div className="flex">
+<div className="min-w-0 sm:hidden">
+<div
+  className="w-full max-w-full overflow-hidden"
+  ref={mobileEmblaRef}
+>
+<div className="flex w-full">
       {data.images.map((image) => (
         <div
           key={image.id}
-          className="flex-[0_0_100%] px-2"
+          className="flex-[0_0_85%] px-2"
         >
-          <div className="relative aspect-[4/3] overflow-hidden rounded-3xl">
+          <div className="relative h-56 w-full overflow-hidden rounded-3xl">
             <Image
               src={image.imageUrl}
               alt={image.title}
