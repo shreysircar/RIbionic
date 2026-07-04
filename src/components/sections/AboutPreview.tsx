@@ -36,14 +36,15 @@ export default function AboutPreview({ data }: Props) {
             {/* Left Arrow */}
             <button
               onClick={() => emblaApi?.scrollPrev()}
-              className="
-                flex h-12 w-12 flex-shrink-0 items-center justify-center
-                rounded-full border border-white/10
-                bg-white/5 text-grey
-                transition-all duration-300
-                hover:border-[#4a9eb3]
-                hover:bg-white/10
-              "
+className="
+  hidden sm:flex
+  h-12 w-12 flex-shrink-0 items-center justify-center
+  rounded-full border border-white/10
+  bg-white/5 text-grey
+  transition-all duration-300
+  hover:border-[#4a9eb3]
+  hover:bg-white/10
+"
             >
               <ChevronLeft size={24} />
             </button>
@@ -80,14 +81,15 @@ export default function AboutPreview({ data }: Props) {
             {/* Right Arrow */}
             <button
               onClick={() => emblaApi?.scrollNext()}
-              className="
-                flex h-12 w-12 flex-shrink-0 items-center justify-center
-                rounded-full border border-white/10
-                bg-white/5 text-grey
-                transition-all duration-300
-                hover:border-[#4a9eb3]
-                hover:bg-white/10
-              "
+className="
+  hidden sm:flex
+  h-12 w-12 flex-shrink-0 items-center justify-center
+  rounded-full border border-white/10
+  bg-white/5 text-grey
+  transition-all duration-300
+  hover:border-[#4a9eb3]
+  hover:bg-white/10
+"
             >
               <ChevronRight size={24} />
             </button>
