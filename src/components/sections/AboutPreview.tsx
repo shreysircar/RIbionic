@@ -22,17 +22,17 @@ export default function AboutPreview({ data }: Props) {
           {/* Left Content */}
           <div className="flex flex-col justify-center text-center lg:text-left">
 
-            <h2 className="mb-4 text-3xl sm:text-4xl font-semibold leading-tight text-black">
+            <h2 className="mb-4 text-2xl sm:text-3xl lg:text-4xl font-semibold leading-tight text-black">
               {data.heading}
             </h2>
 
-            <p className="text-base leading-relaxed text-slate-400">
+          <p className="mx-auto max-w-md text-base leading-relaxed text-slate-400 lg:mx-0">
               {data.description}
             </p>
           </div>
 
           {/* Right Side */}
-          <div className="flex items-center gap-4">
+          <div className="block sm:flex sm:items-center sm:gap-4">
             {/* Left Arrow */}
             <button
               onClick={() => emblaApi?.scrollPrev()}
@@ -55,10 +55,10 @@ className="
                 {data.images.map((image) => (
                   <div
                     key={image.id}
-                    className="flex-[0_0_100%] sm:flex-[0_0_50%] lg:flex-[0_0_33.333%] px-3"
+                    className="flex-[0_0_100%] sm:flex-[0_0_50%] lg:flex-[0_0_33.333%] px-0 sm:px-3"
                   >
-<div className="group">
-  <div className="relative aspect-[4/3] sm:aspect-square overflow-hidden rounded-3xl">
+<div className="group max-w-md mx-auto">
+  <div className="relative aspect-[5/3] sm:aspect-square overflow-hidden rounded-3xl">
     <Image
       src={image.imageUrl}
       alt={image.title}
@@ -115,9 +115,9 @@ className="
 
             <button
               onClick={() => emblaApi?.scrollNext()}
-              className="flex h-12 w-12 items-center justify-center rounded-full border border-slate-300 bg-white text-slate-700 transition-all duration-300 hover:border-[#4a9eb3] hover:text-[#4a9eb3]"
+      className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-300 bg-white text-slate-700 transition-all duration-300 hover:border-[#4a9eb3] hover:text-[#4a9eb3]"
             >
-              <ChevronRight size={22} />
+              <ChevronRight size={18} />
             </button>
           </div>
 
