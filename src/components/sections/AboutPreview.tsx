@@ -10,10 +10,15 @@ interface Props {
 }
 
 export default function AboutPreview({ data }: Props) {
-  const [emblaRef, emblaApi] = useEmblaCarousel({
-    align: "start",
-    loop: true,
-  });
+const [desktopEmblaRef, desktopEmblaApi] = useEmblaCarousel({
+  align: "start",
+  loop: true,
+});
+
+const [mobileEmblaRef, mobileEmblaApi] = useEmblaCarousel({
+  align: "start",
+  loop: true,
+});
 
   return (
 <section className="bg-white py-12 sm:py-16 lg:py-20">
@@ -35,7 +40,7 @@ export default function AboutPreview({ data }: Props) {
 <div className="hidden sm:flex items-center gap-4">
             {/* Left Arrow */}
             <button
-              onClick={() => emblaApi?.scrollPrev()}
+              onClick={() => desktopEmblaApi?.scrollPrev()}
 className="
   hidden sm:flex
   h-12 w-12 flex-shrink-0 items-center justify-center
@@ -50,7 +55,7 @@ className="
             </button>
 
             {/* Carousel */}
-            <div className="min-w-0 flex-1 overflow-hidden" ref={emblaRef}>
+            <div className="min-w-0 flex-1 overflow-hidden" ref={desktopEmblaRef}>
               <div className="flex">
                 {data.images.map((image) => (
                   <div
@@ -76,11 +81,6 @@ className="
       </h3>
     </div>
   </div>
-
-  {/* Mobile title below image */}
-  <h3 className="mt-4 text-center text-xl font-semibold text-slate-900 sm:hidden">
-    {image.title}
-  </h3>
 </div>
                   </div>
                 ))}
@@ -89,7 +89,7 @@ className="
 
                      {/* Right Arrow */}
             <button
-              onClick={() => emblaApi?.scrollNext()}
+              onClick={() => desktopEmblaApi?.scrollNext()}
               className="
                 hidden sm:flex
                 h-12 w-12 flex-shrink-0 items-center justify-center
@@ -104,6 +104,48 @@ className="
             </button>
           </div>
 
+  {/* Mobile Right Side */}
+<div className="sm:hidden">
+  <div className="w-full overflow-hidden" ref={mobileEmblaRef}>
+    <div className="flex">
+      {data.images.map((image) => (
+        <div
+          key={image.id}
+          className="flex-[0_0_100%] px-2"
+        >
+          <div className="relative aspect-[4/3] overflow-hidden rounded-3xl">
+            <Image
+              src={image.imageUrl}
+              alt={image.title}
+              fill
+              className="object-cover"
+            />
+          </div>
+
+          <h3 className="mt-4 text-center text-lg font-semibold text-slate-900">
+            {image.title}
+          </h3>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <div className="mt-5 flex justify-center gap-3">
+    <button
+      onClick={() => mobileEmblaApi?.scrollPrev()}
+      className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-300"
+    >
+      <ChevronLeft size={18} />
+    </button>
+
+    <button
+      onClick={() => mobileEmblaApi?.scrollNext()}
+      className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-300"
+    >
+      <ChevronRight size={18} />
+    </button>
+  </div>
+</div>
         
  
 
