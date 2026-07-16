@@ -388,8 +388,17 @@ Payment credentials are processed directly by the payment provider under its own
 
           <p>Deletion of an account may result in loss of access to subscription services, license entitlements, and account-related features.
           </p>
-<p>User documents, images, videos, audio recordings, backups, and other locally stored content remain under the user's control and are not retained by Ribionic Solutions as part of normal application operations.</p>
-
+<p className="mt-4">
+  You can submit an account deletion request through our{" "}
+  <a
+    href="https://www.ribionic.com/privacy/lekhajokha/delete-account"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="font-medium text-[#025a6a] underline hover:text-[#014a57]"
+  >
+    Account Deletion Request page
+  </a>.
+</p>
 
           <h2 className="text-2xl font-bold text-slate-900">14. Children's Privacy</h2>
 
