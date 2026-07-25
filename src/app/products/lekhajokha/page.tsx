@@ -11,6 +11,10 @@ export default function LekhaJokhaPage() {
       <Navbar />
 
       <main className="relative overflow-hidden bg-[#FAFAFA] text-[#292524]">
+        {/* Top Gradient */}
+<div className="absolute inset-x-0 top-0 h-[420px] -z-10 overflow-hidden">
+  <div className="absolute inset-0 bg-gradient-to-b from-[#025a6a] via-[#4a9eb3]/35 to-[#FAFAFA]" />
+</div>
 
         {/* Background */}
         <div className="absolute inset-0 -z-10 overflow-hidden">
@@ -20,7 +24,7 @@ export default function LekhaJokhaPage() {
 
         {/* HERO */}
 
-        <section className="mx-auto max-w-7xl px-6 pt-36 pb-24">
+        <section className="mx-auto max-w-7xl px-6 pt-44 pb-24">
 
           <div className="grid lg:grid-cols-2 gap-20 items-center">
 
