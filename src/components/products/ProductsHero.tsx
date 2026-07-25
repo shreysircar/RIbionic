@@ -28,14 +28,13 @@ export default function ProductsHero() {
           </p>
 
           <div className="mt-10 flex flex-wrap gap-4">
-            <Link
-              href="https://www.ribionic.com/products/lekhajokha"
-              target="_blank"
-              className="inline-flex items-center gap-2 rounded-xl bg-[#025a6a] px-6 py-3 font-medium text-white transition hover:bg-[#4a9eb3]"
-            >
-              Explore LekhaJokha
-              <ArrowRight size={18} />
-            </Link>
+<Link
+  href="/products/lekhajokha"
+  className="inline-flex items-center gap-2 rounded-xl bg-[#025a6a] px-6 py-3 font-medium text-white transition hover:bg-[#4a9eb3]"
+>
+  Explore LekhaJokha
+  <ArrowRight size={18} />
+</Link>
           </div>
         </div>
       </div>
