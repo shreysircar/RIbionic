@@ -10,7 +10,7 @@ export default function LekhaJokhaPage() {
     <>
       <Navbar />
 
-      <main className="relative overflow-hidden bg-[#FAFAFA] text-[#292524]">
+     <main className="relative overflow-hidden text-[#292524]">
         {/* Top Gradient */}
 <div className="absolute inset-x-0 top-0 h-[420px] -z-10 overflow-hidden">
   <div className="absolute inset-0 bg-gradient-to-b from-[#025a6a] via-[#4a9eb3]/35 to-[#FAFAFA]" />
