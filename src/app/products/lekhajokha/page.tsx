@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Navbar from "@/components/layout/Navbar";
-import Footer from "@/components/layout/Footer";
 
 export default function LekhaJokhaPage() {
   return (
@@ -699,7 +698,6 @@ export default function LekhaJokhaPage() {
 
       </main>
 
-      <Footer />
     </>
   );
 }
