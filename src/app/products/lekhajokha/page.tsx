@@ -2,12 +2,11 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import Navbar from "@/components/layout/Navbar";
 
 export default function LekhaJokhaPage() {
   return (
     <>
-      <Navbar />
+
 
      <main className="relative overflow-hidden text-[#292524]">
         {/* Top Gradient */}
