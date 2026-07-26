@@ -618,20 +618,6 @@ export default function LekhaJokhaPage() {
               <div className="mt-10 space-y-5">
 
                 <Link
-                  href="mailto:support@ribionic.com"
-                  className="block rounded-xl bg-[#F5F5F4] p-5 hover:bg-[#025a6a] hover:text-white transition"
-                >
-                  General Support
-                </Link>
-
-                <Link
-                  href="mailto:playstore@ribionic.com"
-                  className="block rounded-xl bg-[#F5F5F4] p-5 hover:bg-[#025a6a] hover:text-white transition"
-                >
-                  Google Play Support
-                </Link>
-
-                <Link
                   href="/privacy/lekhajokha"
                   className="block rounded-xl bg-[#F5F5F4] p-5 hover:bg-[#025a6a] hover:text-white transition"
                 >
