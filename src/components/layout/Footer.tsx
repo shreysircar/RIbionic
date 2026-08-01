@@ -200,7 +200,7 @@ const handleSubscribe = async () => {
           <div className="flex flex-col items-center justify-between gap-3 text-sm text-slate-500 md:flex-row">
 
             <p>
-              © {new Date().getFullYear()} Ribionic Solutions.
+              © {new Date().getFullYear()} Ribionic Solutions Private Limited.
               All rights reserved.
             </p>
 
