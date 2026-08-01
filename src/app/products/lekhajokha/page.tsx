@@ -34,10 +34,24 @@ export default function LekhaJokhaPage() {
               viewport={{ once: true }}
             >
 
-              <span className="inline-flex rounded-full bg-[#025a6a]/10 px-4 py-2 text-sm font-semibold text-[#025a6a]">
-                PRODUCT
-              </span>
+<span className="inline-flex rounded-full bg-[#025a6a]/10 px-4 py-2 text-sm font-semibold tracking-wide text-[#025a6a]">
+  PRODUCT
+</span>
 
+<h2 className="mt-5 text-3xl lg:text-4xl font-bold text-[#025a6a] leading-tight">
+  LekhaJokha
+</h2>
+
+<p className="mt-2 text-lg text-slate-600 font-medium">
+  Your Personal Life Organizer
+</p>
+
+<p className="mt-4 text-base text-slate-500">
+  Developed & Operated by{" "}
+  <span className="font-semibold text-[#025a6a]">
+    Ribionic Solutions
+  </span>
+</p>
               <p className="mt-8 uppercase tracking-[0.25em] text-sm text-slate-500 leading-relaxed">
                 All your expenses, documents, subscriptions, reminders and
                 renewals in one private place - your CV, academic certificates,
