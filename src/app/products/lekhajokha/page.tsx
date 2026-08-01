@@ -49,7 +49,7 @@ export default function LekhaJokhaPage() {
 <p className="mt-5 max-w-xl text-lg leading-8 text-slate-600">
   Developed &amp; Operated by{" "}
   <span className="font-semibold text-[#025a6a]">
-    Ribionic Solutions
+    Ribionic Solutions Private Limited
   </span>
 </p>
               <p className="mt-8 uppercase tracking-[0.25em] text-sm text-slate-500 leading-relaxed">
