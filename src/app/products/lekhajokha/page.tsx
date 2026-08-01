@@ -34,20 +34,20 @@ export default function LekhaJokhaPage() {
               viewport={{ once: true }}
             >
 
-<span className="inline-flex rounded-full bg-[#025a6a]/10 px-4 py-2 text-sm font-semibold tracking-wide text-[#025a6a]">
-  PRODUCT
+<span className="inline-flex rounded-full bg-[#025a6a]/10 px-5 py-2 text-sm font-semibold tracking-[0.15em] uppercase text-[#025a6a]">
+  Product
 </span>
 
-<h2 className="mt-5 text-3xl lg:text-4xl font-bold text-[#025a6a] leading-tight">
+<h2 className="mt-6 text-5xl lg:text-6xl font-bold leading-tight text-[#292524]">
   LekhaJokha
 </h2>
 
-<p className="mt-2 text-lg text-slate-600 font-medium">
+<p className="mt-4 text-2xl lg:text-3xl font-semibold text-[#025a6a]">
   Your Personal Life Organizer
 </p>
 
-<p className="mt-4 text-base text-slate-500">
-  Developed & Operated by{" "}
+<p className="mt-5 max-w-xl text-lg leading-8 text-slate-600">
+  Developed &amp; Operated by{" "}
   <span className="font-semibold text-[#025a6a]">
     Ribionic Solutions
   </span>
