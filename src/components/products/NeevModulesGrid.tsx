@@ -32,7 +32,7 @@ export default function NeevModulesGrid() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="max-w-3xl">
           <span className="text-sm font-medium uppercase tracking-[0.2em] text-[#4a9eb3]">
-            Neev Ecosystem
+            ERP Ecosystem
           </span>
 
           <h2 className="mt-4 text-4xl font-bold text-white md:text-5xl">
@@ -40,7 +40,7 @@ export default function NeevModulesGrid() {
           </h2>
 
           <p className="mt-5 text-lg leading-relaxed text-slate-300">
-            Neev is being developed as a connected ecosystem of business
+             ERP system is being developed as a connected ecosystem of business
             applications. The initial suite focuses on finance, projects,
             customer management, intelligence, and operational efficiency.
           </p>
@@ -117,7 +117,7 @@ export default function NeevModulesGrid() {
               Marketing, Service Management, Timesheets, Rentals,
               Procurement, Inventory Management, Supply Chain Management
               and several other applications are planned as part of the
-              expanding Neev ecosystem.
+              expanding ERP ecosystem.
             </p>
           </div>
         </div>

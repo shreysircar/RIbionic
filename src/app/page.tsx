@@ -6,12 +6,14 @@ import StatsSection from "@/components/sections/StatsSection";
 import { heroSlides } from "@/lib/data/hero";
 import { aboutData } from "@/lib/data/about";
 import TrendingPreview from "@/components/sections/TrendingPreview";
-
+import ProductsPreview from "@/components/sections/ProductsPreview";
 export default function HomePage() {
   return (
     <main className="bg-white">
       <HeroBanner slides={heroSlides} />
 
+      <ProductsPreview />
+      
       <AboutPreview data={aboutData} />
 
       <ServicesPreview />

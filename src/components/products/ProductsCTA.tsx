@@ -24,7 +24,7 @@ export default function ProductsCTA() {
 
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-relaxed text-slate-300">
             From LekhaJokha for personal productivity and document management
-            to the upcoming Neev Platform for enterprise operations, Ribionic
+            to the upcoming ERP Platform for enterprise operations, Ribionic
             Solutions continues to build technology solutions that simplify,
             streamline, and transform the way people and businesses work.
           </p>

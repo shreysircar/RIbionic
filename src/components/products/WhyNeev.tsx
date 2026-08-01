@@ -22,7 +22,7 @@ export default function WhyNeev() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="max-w-3xl">
           <span className="text-sm font-medium uppercase tracking-[0.2em] text-[#4a9eb3]">
-            Why Neev?
+            Why Ribionic's ERP?
           </span>
 
           <h2 className="mt-4 text-4xl font-bold text-white md:text-5xl">
@@ -30,7 +30,7 @@ export default function WhyNeev() {
           </h2>
 
           <p className="mt-5 text-lg leading-relaxed text-slate-300">
-            Neev is being developed to provide organizations with an intuitive,
+           ERP system is being developed to provide organizations with an intuitive,
             integrated, and affordable business platform that simplifies
             operations while supporting future growth.
           </p>

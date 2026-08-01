@@ -8,7 +8,7 @@ export default function NeevPlatformSection() {
           </span>
 
           <h2 className="mt-5 text-4xl font-bold text-white md:text-5xl">
-            Neev Platform
+           ERP Platform
           </h2>
 
           <p className="mt-4 text-lg leading-relaxed text-slate-300">
