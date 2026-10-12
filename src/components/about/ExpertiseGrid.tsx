@@ -11,6 +11,7 @@ const expertise = [
   "Sales",
   "Technology",
   "Human Resources",
+  "Trainings"
 ];
 
 export default function ExpertiseGrid() {
