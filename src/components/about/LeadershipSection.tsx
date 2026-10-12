@@ -18,12 +18,12 @@ export default function LeadershipSection() {
               The company is led by industry veterans with
               several decades of international experience
               working with global corporate giants and from
-              leading institutes like IIT, FMS and IIMs.
+              leading institutes like IIT, FMS, IIMs and Delhi University.
             </p>
 
             <p className="text-lg leading-relaxed text-slate-600">
               They bring their expertise across multiple
-              industrial domains like banking, finance,
+              industrial domains like hospitality, banking, finance,
               insurance, manufacturing, energy, retail,
               hi-tech and others while leading with excellence
               and redefining practices in operational areas
