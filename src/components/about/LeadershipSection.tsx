@@ -27,7 +27,7 @@ export default function LeadershipSection() {
               insurance, manufacturing, energy, retail,
               hi-tech and others while leading with excellence
               and redefining practices in operational areas
-              like strategy, sales, technology and human
+              like trainings, strategy, sales, technology and human
               resources.
             </p>
           </div>
