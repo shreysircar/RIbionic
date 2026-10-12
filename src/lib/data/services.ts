@@ -31,4 +31,9 @@ export const servicesData: Service[] = [
     title: "Life Sciences",
     image: "/images/services/lifesciences.png"
   },
+    {
+    id: "7",
+    title: "Hospitality",
+    image: "/images/services/hospitality.jpg"
+  },
 ];
