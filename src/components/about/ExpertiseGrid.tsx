@@ -1,4 +1,5 @@
 const expertise = [
+  "Hospitality",
   "Banking",
   "Finance",
   "Insurance",
